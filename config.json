@@ -1,0 +1,43 @@
+{
+    "TOKEN": "ODA0NTQ0MjAwNTQwNTUzMjQ3.YBN4LQ.P3sYqURdcvJSocwce-o927tvIPE",
+    "PREFIX": "$",
+
+    "robloxGroups": [
+        {
+            "id": 3519516
+        },
+
+        {
+            "id": 3532703,
+            "name": "AD"
+        },
+        {
+            "id": 3534520,
+            "name": "MTF"
+        },
+        {
+            "id": 3540272,
+            "name": "ScD"
+        },
+        {
+            "id": 3540241,
+            "name": "EC"
+        },
+        {
+            "id": 3545062,
+            "name": "SD"
+        },
+        {
+            "id": 3610184,
+            "name": "MD"
+        },
+        {
+            "id": 3736895,
+            "name": "DEA"
+        },
+        {
+            "id": 3660200,
+            "name": "MaD"
+        }
+    ]
+}

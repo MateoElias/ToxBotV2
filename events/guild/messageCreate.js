@@ -46,6 +46,13 @@ module.exports = {
 				content: `Coulnd't find that command\n${dym}`,
 			});
 		}
+		if (
+			command.serverOnly &&
+			command.serverOnly.length != 0 &&
+			!command.serverOnly.includes(message.guild.id)
+		) {
+			return;
+		}
 
 		try {
 			await command.run(client, message, args);

@@ -12,7 +12,6 @@ module.exports = (client) => {
 		);
 		const commands = readdirSync(`./commands/${dir}/`).map((cmd) => {
 			let pull = require(`../commands/${dir}/${cmd}`);
-
 			try {
 				if (validateModules(pull, cmd)) {
 					if (checkProperty(pull, cmd)) {

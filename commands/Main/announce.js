@@ -4,7 +4,6 @@ const {
 
 module.exports = {
     name: "announce",
-    category: "Main",
     aliases: ["ann"],
     description: "Announcement Command",
     run: async (client, message, args) => {
