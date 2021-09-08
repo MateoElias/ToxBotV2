@@ -1,3 +1,4 @@
+const dotenv = require('dotenv').config()
 const config = require('./config.json')
 const fs = require('fs');
 
@@ -15,4 +16,4 @@ client.categories = fs.readdirSync('./commands/');
     require(`./handler/${handler}`)(client);
 });
 
-client.login(config.TOKEN)
+client.login(process.env.TOKEN)
